@@ -1,0 +1,21 @@
+.email-box {
+	/* cross-browser hack for inline-block display */
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	
+	padding: 5px 10px;
+	margin: 0 .5em;
+	background-color: #C3EEFF;
+	border: 1px solid #ADCAFF;
+	border-radius: 15px;
+}
+
+.delete-icon {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin: 0 .3em;
+	cursor: pointer;
+}
